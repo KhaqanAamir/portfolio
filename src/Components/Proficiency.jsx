@@ -1,6 +1,5 @@
 import React from 'react';
-import Lottie from 'react-lottie';
-import porfolioanimation from '../Assets/Animations/portfolioAnimation.json'
+
 
 function Proficiency() {
   return (
@@ -36,19 +35,7 @@ function Proficiency() {
         </div>
         <div className="sm:w-3/5 ">
           <div className="sm:w-4/12 w-full sm:mx-auto mx-0">
-          <Lottie
-              options={{
-                loop: ``,
-                autoplay: true,
-                animationData: porfolioanimation,
-                isClickToPauseDisabled: false,
-                rendererSettings: {
-                  preserveAspectRatio: "xMidYMid slice",
-                },
-              }}
-              eventListeners={[{}]}
-              className="pb-16"
-            />
+          <lottie-player src="https://lottie.host/119efc5f-3e25-4aa1-9b1f-4d0fa27a5481/Bfm9QZ5yG7.json" background="transparent"  speed="1"  loop  autoplay></lottie-player>
           </div>
         </div>
       </div>

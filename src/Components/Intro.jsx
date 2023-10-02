@@ -1,6 +1,4 @@
 import React from "react";
-import Lottie from "react-lottie";
-import coding from "../Assets/Animations/codingintro.json";
 function Intro() {
   return (
 
@@ -64,19 +62,7 @@ function Intro() {
 
         <div className="">
           <div className="lg:w-1/2 mx-0 lg:mx-auto">
-            <Lottie
-              options={{
-                loop: ``,
-                autoplay: true,
-                animationData: coding,
-                isClickToPauseDisabled: false,
-                rendererSettings: {
-                  preserveAspectRatio: "xMidYMid slice",
-                },
-              }}
-              eventListeners={[{}]}
-              className="pb-16"
-            />
+          <lottie-player src="https://lottie.host/1efefa88-64ac-487b-b288-5d93edc9e9d2/htC4MqAPnr.json" background="transparent"  speed="1"  loop  autoplay></lottie-player>
           </div>
         </div>
       </div>

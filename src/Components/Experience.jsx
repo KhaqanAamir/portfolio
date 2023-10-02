@@ -1,30 +1,17 @@
 import React from 'react';
-import Lottie from 'react-lottie'
-import studyinganimation from '../Assets/Animations/studying.json'
 
 const Experience = () => {
   return (
     <>
       <div className=" text-white p-8" id="opening">
         <div className="flex justify-center md:flex-row flex-col">
-          <div className=''>
-          <div className='md:w-full lg:w-2/4 mx-auto'>
-          <Lottie
-              options={{
-                loop: ``,
-                autoplay: true,
-                animationData: studyinganimation,
-                isClickToPauseDisabled: false,
-                rendererSettings: {
-                  preserveAspectRatio: "xMidYMid slice",
-                },
-              }}
-              eventListeners={[{}]}
-            />
+          <div className='w-full flex justify-center'>
+          <div className='md:w-2/5 sm:w-3/5'>
+          <lottie-player src="https://lottie.host/5fea18ec-9dea-47de-8b66-877a3b515582/9bGh4u7tIO.json" background="transparent"  speed="1"  loop  autoplay></lottie-player>
           </div>
           </div>
 
-          <div className="p-4">
+          <div className="p-4 w-full">
             <h1 className="font-semibold text-2xl">What I do</h1>
             <p className="mt-4">
               Crazy Full stack developer who wants to explore every Tech stack

@@ -2,7 +2,6 @@ import { Fragment } from 'react'
 import { Disclosure, Menu,  } from '@headlessui/react'
 import { Bars3Icon,  XMarkIcon } from '@heroicons/react/24/outline'
 import mypicture from '../Assets/Images/Bob.jpeg'
-import { Link } from 'react-router-dom'
 
 const navigation = [
   { name: 'Intro', href: '#introdiv', current: true },
