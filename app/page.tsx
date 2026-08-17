@@ -425,7 +425,7 @@ export default function Home() {
               </a>
               <a
                 className={styles.socialButton}
-                href="https://www.linkedin.com/in/khaqan-aamir/"
+                href="https://www.linkedin.com/in/khaqan-aamir-9a9469210/"
                 target="_blank"
                 rel="noreferrer"
               >
