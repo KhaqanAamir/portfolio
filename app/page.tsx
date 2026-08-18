@@ -16,15 +16,15 @@ const projects = [
   },
   {
     index: "02",
-    name: "CuraHealth",
-    type: "Nonprofit healthcare",
+    name: "UnstuckOS",
+    type: "Ticketing Management System",
     tone: "violet",
     description:
-      "An accessible healthcare platform helping underserved communities and care teams navigate complex health data with confidence.",
-    outcome: "WCAG 2.1 interfaces for mission-critical care.",
-    stack: ["React", "Snowflake", "Delta Lake", "REST APIs"],
-    href: "https://curahealth.org",
-    linkLabel: "Visit curahealth.org",
+      "Ticket management platform that enables teams to organize work across customizable workspaces, folders, and sprint-based lists, with flexible workflows for moving tickets through different stages and statuses.",
+    outcome: "Project management and ticketing platform.",
+    stack: ["React", "Typescript", "Supabase", "REST APIs"],
+    href: "https://os.unstucklabs.app/",
+    linkLabel: "Visit os.unstucklabs.app",
   },
   {
     index: "03",
